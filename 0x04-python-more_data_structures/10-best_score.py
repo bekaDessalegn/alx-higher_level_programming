@@ -11,7 +11,7 @@ def best_score(a_dictionary):
     maximum = 0
 
     for i, v in a_dictionary.items():
-        if v > maximum:
+        if v >= maximum:
             maximum = v
 
     pos = val.index(maximum)
