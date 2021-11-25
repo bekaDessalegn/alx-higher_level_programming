@@ -1,8 +1,13 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    count = 0
-    for i in my_list:
+    if my_list is None:
+        return None
+
+    new = my_list.copy()
+
+    for i in new:
         if i == search:
-            my_list[count] = replace
-        count += 1
-    print(my_list)
+            new[new.index(i)] = replace
+        else:
+            continue
+    return new
