@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # test_rectangle.py
-# Moti Dawit moti.davis16@gmail.com
+# Brennan D Baraban <375@holbertonschool.com>
 """Defines unittests for models/rectangle.py.
 
 Unittest classes:
